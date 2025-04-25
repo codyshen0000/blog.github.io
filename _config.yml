@@ -2,8 +2,8 @@ title: 我的博客
 description: 记录与分享我的想法和心得
 author: 博主
 email: your-email@example.com
-baseurl: "" # 如果您的网站有子路径，请在这里填写
-url: "https://blog.github.io" # 您的网站域名，例如 http://username.github.io
+baseurl: "/blog.github.io" # 修改为你的子路径
+url: "https://codyshen0000.github.io" # 修改为你的实际GitHub用户名
 
 # 社交媒体链接
 twitter_username: 
