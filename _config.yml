@@ -1,19 +1,25 @@
-title: 我的博客
-description: 记录与分享我的想法和心得
-author: 博主
+title: 技术分享博客
+description: 记录与分享我的技术学习心得、项目经验和编程知识
+author: 技术博主
 email: your-email@example.com
-baseurl: "/blog.github.io" # 修改为你的子路径
-url: "https://codyshen0000.github.io" # 修改为你的实际GitHub用户名
+baseurl: "" # 本地开发时为空，如果部署到GitHub项目页面而非用户页面，需要设置为"/项目名"
+url: "https://您的用户名.github.io" # 请替换为您的实际GitHub用户名
 
 # 社交媒体链接
-twitter_username: 
-github_username: 
-weibo_username: 
+twitter_username: 您的推特用户名  
+github_username: 您的GitHub用户名
+weibo_username: 您的微博用户名
 
 # 博客设置
 permalink: /:year/:month/:day/:title/
-paginate: 5
-paginate_path: "/page:num/"
+
+# 分页设置
+pagination:
+  enabled: true
+  per_page: 8
+  permalink: '/page/:num/'
+  sort_field: 'date'
+  sort_reverse: true
 
 # 构建设置
 markdown: kramdown
@@ -21,7 +27,14 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-gist  # 用于嵌入GitHub Gist代码片段
+
+# 自定义设置
+show_excerpts: true  # 在首页显示文章摘要
+google_analytics: # 你的Google Analytics ID
 
 # 排除文件
 exclude:

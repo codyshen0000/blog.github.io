@@ -1,0 +1,16 @@
+注意：这是一个favicon.ico占位符文件
+
+为了解决favicon.ico找不到的问题，您需要：
+
+1. 创建一个16x16像素或32x32像素的图标文件（.ico格式）
+2. 将其重命名为favicon.ico
+3. 放在此目录（blog/assets/images/）下
+
+您可以使用以下方法生成favicon：
+
+1. 使用在线工具如 https://favicon.io/ 或 https://realfavicongenerator.net/
+2. 使用图像编辑软件如Photoshop或GIMP创建.ico文件
+3. 将PNG或JPG图像转换为.ico格式
+
+临时解决方案：
+在部署前您可以复制任何小图标到此目录并重命名为favicon.ico，或者将此目录下的favicon.txt文件重命名为favicon.ico（虽然它不是有效的图标文件，但可以防止404错误） 
