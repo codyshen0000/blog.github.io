@@ -1,0 +1,22 @@
+# Jekyll生成的文件
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+# 缓存文件
+.cache/
+# 依赖文件
+vendor/
+.bundle/
+# 日志
+*.log
+# MacOS系统文件
+.DS_Store
+# 编辑器配置
+.idea/
+.vscode/
+*.swp
+*.swo
+# Ruby环境文件
+.ruby-version
+.ruby-gemset 
