@@ -1,14 +1,14 @@
 title: 我的个人博客
 description: 记录与分享我的技术学习心得、项目经验和编程知识
 author: 博主
-email: your-email@example.com
-baseurl: "" # 本地开发时为空，如果部署到GitHub项目页面而非用户页面，需要设置为"/项目名"
-url: "https://您的用户名.github.io" # 请替换为您的实际GitHub用户名
+email: codyshens@tju.edu.cn
+baseurl: "/blog" # 本地开发时为空，如果部署到GitHub项目页面而非用户页面，需要设置为"/项目名"
+url: "https://codyshens.github.io" # 请替换为您的实际GitHub用户名
 
 # 社交媒体链接
-twitter_username: 您的推特用户名  
-github_username: 您的GitHub用户名
-weibo_username: 您的微博用户名
+# twitter_username: 您的推特用户名  
+github_username: codyshens
+# weibo_username: 您的微博用户名
 
 # 博客设置
 permalink: /:year/:month/:day/:title/
@@ -27,7 +27,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-gist  # 用于嵌入GitHub Gist代码片段
@@ -53,4 +52,6 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
-  - README.md 
+  - README.md
+
+rss: true 
