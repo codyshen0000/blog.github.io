@@ -1,6 +1,6 @@
-title: 技术分享博客
+title: 我的个人博客
 description: 记录与分享我的技术学习心得、项目经验和编程知识
-author: 技术博主
+author: 博主
 email: your-email@example.com
 baseurl: "" # 本地开发时为空，如果部署到GitHub项目页面而非用户页面，需要设置为"/项目名"
 url: "https://您的用户名.github.io" # 请替换为您的实际GitHub用户名
@@ -16,7 +16,7 @@ permalink: /:year/:month/:day/:title/
 # 分页设置
 pagination:
   enabled: true
-  per_page: 8
+  per_page: 10
   permalink: '/page/:num/'
   sort_field: 'date'
   sort_reverse: true
@@ -35,6 +35,17 @@ plugins:
 # 自定义设置
 show_excerpts: true  # 在首页显示文章摘要
 google_analytics: # 你的Google Analytics ID
+
+# 导航菜单设置
+header_pages:
+  - index.html
+  - archives.md
+  - categories.md
+  - tags.md
+  - about.md
+
+# 自定义主题颜色
+theme_color: "#1a73e8"
 
 # 排除文件
 exclude:
