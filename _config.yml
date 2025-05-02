@@ -3,11 +3,11 @@ description: 记录与分享我的技术学习心得、项目经验和编程知�
 author: 博主
 email: codyshens@tju.edu.cn
 baseurl: "/blog" # 本地开发时为空，如果部署到GitHub项目页面而非用户页面，需要设置为"/项目名"
-url: "https://codyshens.github.io" # 请替换为您的实际GitHub用户名
+url: "https://codyshen0000.github.io" # 请替换为您的实际GitHub用户名
 
 # 社交媒体链接
 # twitter_username: 您的推特用户名  
-github_username: codyshens
+github_username: codyshen0000
 # weibo_username: 您的微博用户名
 
 # 博客设置

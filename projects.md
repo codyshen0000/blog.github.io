@@ -18,11 +18,13 @@ permalink: /projects/
       </div>
       <p>基于Jekyll的个人技术博客平台，支持文章分类、标签管理、代码高亮等功能。</p>
       <div class="project-links">
-        <a href="https://github.com/codyshens0000/blog" target="_blank">源码</a>
-        <a href="https://codyshens0000.github.io/blog" target="_blank">演示</a>
+        <a href="https://github.com/codyshen0000/blog" target="_blank">源码</a>
+        <a href="https://codyshen0000.github.io/blog" target="_blank">演示</a>
       </div>
     </div>
 
+
+</div>
 
 <h2 class="section-title">开源贡献</h2>
   <ul class="contribution-list">
